@@ -9,6 +9,10 @@ import java.util.stream.Stream;
 
 public class Priorities {
 
+    /**
+     * Space complexity O(n).
+     * Time complexity O(n*log(n))
+     */
     public static List<Student> getStudents(List<String> events) {
 
         if (events == null || events.isEmpty()) {
